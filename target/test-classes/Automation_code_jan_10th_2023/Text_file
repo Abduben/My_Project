@@ -1,0 +1,8 @@
+url = http://www.tutorialsninja.com/demo/
+myaccount = //span[@class = 'caret']/preceding-sibling::span
+lg = Login
+com = //input[@id= 'input-email']
+email = Boss176@gmail.com
+password = 12345
+path = //input[contains(@id, 'input-password')]
+button = //input[@class = 'btn btn-primary']

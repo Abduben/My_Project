@@ -1,0 +1,212 @@
+//OOPS (Object oriented programming language system/ structure);
+//
+//there are 6 pillars of java in opps:
+//	
+// - class
+// - object and methods
+// - inheritance
+// - polymorphism
+// - absratction
+// - encapsulation
+
+ //*****************************************Class*********************************************************
+// class is collection of entiteS [methods, constructors, objects, variables, block, nested class]
+// class is a logical form, a logical entity
+// class is template or a blueprint 
+// Class represents a set of properties that are common to all objects of any type
+// class does not occupy memory space
+// Syntax of a class
+// accessmodifier   class  classname {
+//	
+//	create methods
+//	constructors
+//  objects
+//  variables/feilds
+//  Blocks
+//  nested class
+//}
+//*******************************************Object*************************************************************
+
+//what is an object
+//object and instance of a class
+//objects occupy memeory
+//object is a physical form. this means it has certain propertoies
+//          identity [name]
+//          state  [breed/ ethinicity /age]
+//          Behavior [barking / running/ guarding]
+//categorization of object is simple than class
+//
+//object is collection of all the non-static entities of a class
+
+//**********************************Method**********************************************************************
+ Syntax of a method 
+Access modifier:-
+  - public
+  - private
+  - protected
+  - default
+
+non access modifier
+   - static
+   - final
+   - abstract
+   - sychronized
+   - volatile
+   - native
+   - transient
+   
+ Return type 
+  - it specifies what type of vale/datatype returnby the method, it could be int, string, object
+  
+
+- Syntax of a method:  accessmodifier  static ( key word non accessmodifier) returntype methodname (parameters). the standard of methodname is to start with lower case. if it is 2 words, 
+the first word start with lower case and the second starts with upper case.  
+- default is only allowed in an interface. 
+- methods rae independent units of execution. 
+types:
+  - User-defined methods
+  - standard library methods
+
+*************************************** TestNG*******************************************************************
+
+testng is a testing framework
+testng is an execution engine
+testng is a reporting system
+
+step1:
+we need to install testng in eclipse https://testng.org/testng-eclipse-update-site
+
+Try combo 
+
+execution priority :   @before suite > @beforetest > @ beforelcass > @beforemethod > @Test > @aftermethod > @afterclass > @aftertest > @aftersuite   
+
+variable : local, static, and instance
+
+
+
+****************************************************** Static vs non-static ***************************************************************************
+
+Static can be used in certain entities 
+variable (local level it canntr be used.will throw an error)
+variable (class level it can be used)
+with methods 
+with blocks
+with inner class
+static cannot  be user with outer class 
+
+
+ String = "John"; // an instance variable
+ static int i =25;  // is a static variable
+ 
+ variable inside the method is a local variable is neither static nor non static. 
+ 
+ main is always static because main method can be accessed through the whole code 
+ 
+ static belongs to the class
+ non static belongs to the object. 
+ 
+ static entity will call entity only. iet will call 
+ non static can call non static directly
+
+********************************************************************************************************************************************************
+ 
+Validation is selenium
+
+isSelected
+isDisabled
+isEnable
+
+getTtile
+getcurrentUrl
+************************************************************************************************************
+
+constructors are used to initialize objects not to create objects
+. (dot operator)
+Methods 
+**********************************************************************************************************
+construtors has the class name
+constractors is a block which is initializes the moment an Object is created
+it looks like a method but it is not a method
+constructors does not have a return type
+ Private, public, default,protected access modifiers ca be used for constructors
+ the moment an object is created,  an constructor gets initialized by default
+default constructors - when object 
+user defined (non paramterized)
+user defined (parameterized)
+
+***********************************************************************************************************
+Inheritance
+
+***********************************************************************************************************
+
+Polymorphism
+
+Poly means many. morphism means forms
+
+they are two type:
+> compiletime / static
+  >>it is acheived by method overloading
+  >> method name should be same, class should be same, different arguments/ param
+  >> it is handled by the compiler 
+  
+ 
+  Overriding
+  
+> runTime polymorphism /compiletime polymorphism 
+  >>Method name should be same
+  >>Class should be different
+  >> same argument
+  >> Inheritance (Is a relationship)  
+
+********************************************************************************************************************
+
+Abstruction means hiding data 
+
+Types:
+Up tp 100% abstruction -- abstract class
+100% abstruction -- interface (WebDriver)
+abstract method doesn't have a body. also called unplemented method
+ example: public abstract void hide();
+          Protected abstract void hide();
+          default abstract void hide();
+          You can't create a private abstract method 
+abstract method can only exist in an abstract class.
+
+********************************************************************************************************
+
+Interface
+method are abstract and public in nature
+variables are public, static, and final. in interface, the variable can not be changed they are final.  
+using default keyword you could create methods only in interface. default method can only be created in an interface 
+private methods can be created in interface in java 9 and up. 
+a class can 't extend an interface. so use implement instead of extend 
+WebDriver driver = new ChromeDriver();
+webdriver interface's reference driver is pointing to the chromedriver class
+you cannot create an oject of an interface 
+
+
+**************************************************************************************
+
+The new locators in selenium 4
+
+near
+above
+below
+torightOf
+to leftOf 
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+

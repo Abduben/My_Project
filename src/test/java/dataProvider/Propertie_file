@@ -1,0 +1,8 @@
+F_name = //input[@id = 'input-firstname']
+L_name = //input[contains(@id, 'input-lastname')]
+email = //input[@id = 'input-email']
+phone = //input[contains(@id, 'input-telephone')]
+password = //input[@id = 'input-password']
+confirm_password = //input[contains(@id, 'input-confirm')]
+
+test = //span[@class = 'caret']/preceding-sibling::span

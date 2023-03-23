@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+
+      <parameter name="U" value="http://www.tutorialsninja.com/demo/"></parameter>
+      <parameter name="P" value="12345"></parameter>
+
+
+    <classes>
+      <class name="parameters.Ninja"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
